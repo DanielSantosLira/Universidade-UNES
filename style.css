@@ -13,7 +13,6 @@ header {
     background-position:right;
     background-size: 850px;
     
-
 }
 
 h6 {
@@ -27,8 +26,15 @@ h6 {
     
     
 }
-nav .menu{
+header .menu{
+    position: fixed;
+    width: 100%;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    padding: 40px;
+}
+header .menu li{
+    display: inline-block;
+    
 }
