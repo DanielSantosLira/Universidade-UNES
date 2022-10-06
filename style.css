@@ -8,6 +8,7 @@ body{
 }
  
 .img{
+    align-items: center;
    position: relative; 
    left: 0;
    top: 0;
@@ -16,6 +17,7 @@ body{
    bottom: 0;
 }
 a{
+    align-items: center;
     position:relative;
     left: 5.25%;
     right: 81.64%;
