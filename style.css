@@ -4,45 +4,44 @@
     box-sizing: border-box;
 }
 
-.cabecalho {
-    ;
-
-.logo {
-    position: absolute;
-    left: 130px;
-    right: 30px;
-    top: 10px;
-    bottom: 10px;
-
-}
-
-a {
-    color:#12141D ;
-    position:absolute;
-  
-
-   
+header {
+    position: relative;
+    width: 100%;
     
-}
-
-.navigation {
-    text-align: right;
-    top: 0;
-    position: absolute;
-    right: 15px;
+   
     display: flex;
-    position: absolute;
-
+    
+    justify-content:space-between;
+    overflow: hidden;
 }
+    
 
-.navigation ul {
-    list-style: none;
+.cabecalho {
     display: flex;
-    padding: 20px;
-
+    margin: 30px;
+    font-size: 20px;
+    color: #12141D;
+    bottom: 10px;
 }
-
-.navigation li {
-    margin-right: 20px;
+.logo{
+    
+    top: 10px;
+    left: 10px;
+    width: 900%;
+    height: 100%;
+    margin-bottom: auto;
+   
+}
+#magistr{
+    top: 10px;
+    left: 10px;
+    width: 900%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.navagation{
     display: flex;
+    justify-content: center;
+   
 }
+ 
