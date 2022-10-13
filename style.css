@@ -2,46 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+ font-size: 100%;
 }
 
-header {
-    position: relative;
-    width: 100%;
-    
-   
+.cabecalho{
     display: flex;
-    
-    justify-content:space-between;
-    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
 }
-    
-
-.cabecalho {
+ul{
     display: flex;
-    margin: 30px;
+    gap: 30px;
     font-size: 20px;
-    color: #12141D;
-    bottom: 10px;
-}
-.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:baseline;
     
-    top: 10px;
-    left: 10px;
-    width: 900%;
-    height: 100%;
-    margin-bottom: auto;
-   
+    
 }
 #magistr{
-    top: 10px;
-    left: 10px;
-    width: 900%;
-    height: 100%;
-    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
-.navagation{
-    display: flex;
-    justify-content: center;
-   
+.principal{
+    margin-bottom: 45px;
+    flex-direction: row;
+    align-items: center;
+     margin-left: 50px;
+
 }
- 
