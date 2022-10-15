@@ -19,10 +19,12 @@
     display: flex;
     align-items: center;
     font-family: 'inter', sans-serif;
-    margin-left: 20px;
+    margin-left: 160px;
+    padding: 10px;
 
 }
-#logo{
+
+#logo {
     padding: 10px;
 }
 
@@ -39,15 +41,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 16px 24px;
-    gap: 10px;
-    
-    width: 155px;
-    height: 56
+    padding: 10px;
+    margin-right: 50px;
+
+
+
+}
+
+.menu-link li a:hover {
+    font-size: 30px;
+    background: #111E52;
 }
 
 a {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     text-decoration: none;
     color: #12141d;
@@ -55,18 +62,18 @@ a {
 }
 
 .botao {
-    background-color: blue;
-    color: white;
-    font-size: 16px;
-    padding: 20px 20px 20px;
-    border-radius: 5px;
-    font-family: 'inter', sans-serif;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    align-self: center;
-    text-align: right;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 155px;
+    height: 56px;
+    background: #111E52;
+    border-radius: 8px;
+
+    color: white;
 
 
 }
@@ -80,6 +87,7 @@ a {
     background-image: url(img/fondo-foto.png);
     background-position: center;
     background-size: cover;
+    margin-right: 60px;
 }
 
 .botao-banner {
@@ -89,7 +97,7 @@ a {
     align-items: center;
     padding: 16px 24px;
     gap: 151px;
-    margin-left: 20px;
+    margin-left: 180px;
     width: 325px;
     height: 64px;
     background: #FFC947;
@@ -109,7 +117,7 @@ a {
     font-size: 72px;
     line-height: 88px;
     color: #12141d;
-    margin: 30px;
+    margin-left: 180px;
 
 }
 
@@ -122,7 +130,7 @@ a {
     font-size: 72px;
     line-height: 88px;
     color: #ffc947;
-    margin: 30px;
+    margin-left: 180px;
 }
 
 .texto-banner {
@@ -135,5 +143,122 @@ a {
     line-height: 32px;
     color: #12141D;
     opacity: 0.8;
-    margin: 30px;
+    padding: 10px;
+    margin-left: 180px;
+}
+
+/*fim do conteudo do menu*/
+
+.titulo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    color: #12141D;
+
+}
+
+.conteudo-principal1 {
+    border-radius: 15px;
+    margin-left: 150px;
+    border: 1px solid;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    margin-right: 500px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: #F9F9FF;
+    display: block;
+    justify-content: center;
+
+}
+
+.conteudo-principal2 {
+    border-radius: 15px;
+    margin-left: 150px;
+    border: 1px solid;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    margin-right: 500px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: #F9F9FF;
+
+
+}
+
+.logo2-principal {
+    background: linear-gradient(148.79deg, #F82C2C 12.9%, #EC874E 29.15%, #E78B20 41.54%, #FF2633 70.18%, #FF1818 87.21%);
+    border-radius: 30px;
+    width: 64px;
+    height: 64px;
+    left: 176px;
+    top: 32px;
+}
+
+
+.conteudo-principal3 {
+    border-radius: 15px;
+    margin-left: 150px;
+    border: 1px solid;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    margin-right: 500px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: #F9F9FF;
+}
+
+.texto-principal {
+    padding: 25px;
+    color: #12141D;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.conteiner {
+    width: 637px;
+    height: 144px;
+    left: 312px;
+    top: 1626px;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    margin-bottom: 10px;
+}
+
+.texto-conteiner {
+    width: 569px;
+    height: 84px;
+    margin-left: 600px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #12141D;
+    opacity: 0.7;
+}
+.conteiner1{
+ margin-left: 300px;
+
+  
 }
