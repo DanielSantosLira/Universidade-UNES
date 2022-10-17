@@ -53,6 +53,10 @@ a {
    
 
 }
+#super{
+    color:#FFC947;
+    padding-top: 3px;
+}
 
 
 
@@ -136,6 +140,6 @@ a {
     font-size: 20px;
     color: #12141D;
     padding-left: 5px;
-    padding-top: 30px;
+   
   
 }
