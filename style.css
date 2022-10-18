@@ -20,14 +20,9 @@
     display: flex;
     align-items: center;
     font-size: 'Inter', sans-serif;
-   
+
 }
-#logo{
-    margin: 15px;
-   margin-left: 95px;
-    
-   
-}
+
 
 .menu-links {
     display: flex;
@@ -50,14 +45,10 @@ a {
     text-decoration: none;
     color: #12141d;
     font-family: 'Inter', sans-serif;
-   
+
 
 }
-#super{
-    
-    color: #FFC947;
-    font-family: 'Inter', sans-serif;
-}
+
 
 
 
@@ -84,15 +75,15 @@ a {
 .banner {
     display: flex;
     align-items: center;
-   
-   
+
+
 }
 
 .colona-banner-direita {
     background-image: url(img/fondo-foto.png);
     background-position: center;
     background-size: cover;
-    
+
 }
 
 
@@ -113,34 +104,59 @@ a {
     font-family: 'Inter', sans-serif;
     margin-left: 82px;
     margin-top: 15px;
-    
+
 }
 
 .titulo-banner {
     margin: 80px;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 60px;
     color: #12141d;
     font-family: 'Inter', sans-serif;
-   
-   
+
+
 }
 
-.titulo-banner2 {
-    margin: 80px;
-    font-weight: 500;
-    font-size: 50px;
-    color: #FFC947;
-    font-family: 'Inter', sans-serif;
-   
-   
-}
-.texto-banner{
+
+.texto-banner {
     margin: 80px;
     margin-top: 40px;
     font-size: 20px;
     color: #12141D;
     padding-left: 5px;
-   
-  
+
+
+}
+
+
+#logo {
+    margin: 15px;
+    margin-left: 95px;
+
+
+}
+
+#super {
+
+    color: #FFC947;
+
+}
+
+.conteine {
+    background: #C9C9C9;
+}
+
+#titulo-conteine {
+    position: absolute;
+    width: 978px;
+    height: 72px;
+    left: 371px;
+    top: 970px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    text-align: center;
 }
