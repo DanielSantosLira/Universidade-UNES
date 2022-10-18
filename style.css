@@ -54,8 +54,9 @@ a {
 
 }
 #super{
-    color:#FFC947;
-    padding-top: 3px;
+    
+    color: #FFC947;
+    font-family: 'Inter', sans-serif;
 }
 
 
