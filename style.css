@@ -110,7 +110,7 @@ a {
 .titulo-banner {
     margin: 80px;
     font-weight: 500;
-    font-size: 60px;
+    font-size: 50px;
     color: #12141d;
     font-family: 'Inter', sans-serif;
 
@@ -142,17 +142,17 @@ a {
 
 }
 
-/*#titulo-conteine {
-    position: absolute;
-    width: 978px;
-    height: 72px;
-    left: 371px;
-    top: 970px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 72px;
-    text-align: center;
+#titulo-conteine {
+   display: block;
+   font-size: 56px;
+   text-align: center;
+   color: #12141D;
+   padding: 5px;
 }
+.conteine3{
+    display: block;
+    justify-content: space-between;
+    border: 1px solid red ;
+    
+}
+
