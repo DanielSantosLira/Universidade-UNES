@@ -143,16 +143,166 @@ a {
 }
 
 #titulo-conteine {
-   display: block;
-   font-size: 56px;
-   text-align: center;
-   color: #12141D;
-   padding: 5px;
+    display: block;
+    font-size: 56px;
+    text-align: center;
+    color: #12141D;
+    padding: 5px;
 }
-.conteine3{
+
+.linha {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background: #F9F9FF;
+    border: 1px solid #F9F9FF;
+}
+
+.vetor6 {
+    align-items: center;
+    border-radius: 100%;
+    padding: 20px;
+    background: linear-gradient(148.79deg, #F82C2C 12.9%, #EC874E 29.15%, #E78B20 41.54%, #FF2633 70.18%, #FF1818 87.21%);
+}
+
+.conteine3 {
     display: block;
     justify-content: space-between;
-    border: 1px solid red ;
+    text-align: center;
+
+    height: 180px;
+
+
+
+}
+
+.titulo-conteine2 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px;
+    align-items: center;
+    color: #12141d;
+
+
+}
+
+.texto-conteine2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #12141d;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background: #F9F9FF;
+    border: 1px solid #F9F9FF;
+
+}
+
+.texto-paragrafo {
+    width: 637px;
+    height: 144px;
+    left: 312px;
+    top: 1626px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 72px;
+    color: #12141D;
+}
+
+.texo-paragrafo2 {
+    width: 569px;
+    height: 84px;
+    margin-bottom: auto;
+    left: 1213px;
+    top: 1656px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #12141D;
+    padding: 30px;
+    opacity: 0.7;
+}
+
+.img {
+    display: flex;
+    margin: 50px;
+    top: auto;
+    right: auto;
+    width: 1300px;
+    border-radius: 10px;
+}
+
+.passo {
+    display: block;
+    justify-content: space-around;
+    padding: 100px;
+    background: #F9F9FF;
+    border: 1px solid #F9F9FF;
+}
+
+.titulo-passo {
+    font-size: 56px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    color: #12141D;
+}
+
+.texto-123 {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
     
 }
 
+.texto-123 h1 {
+    text-align: center;
+    border-radius: 100%;
+    background: #12141D;
+    color: #fff;
+    font-size: 30px;
+   width: 100px;
+   height: 100px;
+    
+    
+}
+.texto-1234{
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.texto-1234 p{
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: #000000;;
+    padding: 10px;
+    
+}
+.texto-1235{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.texto-1235 p{
+    font-size: 16px;
+    
+}
