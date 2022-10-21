@@ -205,7 +205,7 @@ a {
     padding: 100px;
     background: #F9F9FF;
     border: 1px solid #F9F9FF;
-
+   left: 300px;
 }
 
 .texto-paragrafo {
@@ -269,7 +269,7 @@ a {
     display: flex;
     justify-content: space-around;
     padding: 50px;
-    
+   
 }
 
 .texto-123 h1 {
